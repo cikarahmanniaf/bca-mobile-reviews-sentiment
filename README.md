@@ -14,17 +14,15 @@ Proyek ini merupakan submission dari modul 'Belajar Pengembangan Machine Learnin
 ## Requirements
 
 ### 1. **Clone Repository**
-   Jika kamu belum meng-clone repository, buka terminal di VSCode dan jalankan perintah berikut:
+   Jika belum meng-clone repository, buka terminal di VSCode dan jalankan perintah berikut:
 
    ```bash
    git clone https://github.com/username/repository_name.git
    cd repository_name
    ```
 
-   Gantilah `https://github.com/username/repository_name.git` dengan URL repository yang sesuai.
-
 ### 2. **Buat Virtual Environment (Opsional tapi disarankan)**
-   Sebelum menginstall dependensi, disarankan untuk menggunakan **virtual environment** agar dependensi proyek tidak bercampur dengan sistem Python global kamu.
+   Sebelum menginstall dependensi, disarankan untuk menggunakan **virtual environment** agar dependensi proyek tidak bercampur dengan sistem Python global.
 
    - Untuk membuat virtual environment:
      ```bash
@@ -42,7 +40,7 @@ Proyek ini merupakan submission dari modul 'Belajar Pengembangan Machine Learnin
        ```
 
 ### 3. **Generate `requirements.txt` dengan `pipreqs`**
-   Jika kamu sudah berada di folder proyek, gunakan **`pipreqs`** untuk menghasilkan file `requirements.txt` berdasarkan impor yang ada di dalam kode Python.
+   Jika ksudah berada di folder proyek, gunakan **`pipreqs`** untuk menghasilkan file `requirements.txt` berdasarkan impor yang ada di dalam kode Python.
 
    - Jalankan perintah berikut di terminal VSCode:
      ```bash
@@ -62,13 +60,6 @@ Proyek ini merupakan submission dari modul 'Belajar Pengembangan Machine Learnin
    ```
 
    Perintah ini akan menginstall semua library yang terdaftar di `requirements.txt`.
-
-### 5. **Jalankan Proyek**
-   Setelah semua dependensi terinstal, kamu bisa mulai menjalankan skrip Python yang ada di proyek ini. Misalnya, jika skrip pelatihan model ada di file `model_training.py`, jalankan perintah berikut:
-
-   ```bash
-   python model_training.py
-   ```
 
 ---
 
